@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Short Drama Studio · 女频版"
+  short_description: "面向女频短剧的编剧、总导演、选角定妆、分镜与连续性工作流"
+  default_prompt: "使用 $ai-short-drama-studio-female 为这个女频短剧项目建立创作与导演工作流。"

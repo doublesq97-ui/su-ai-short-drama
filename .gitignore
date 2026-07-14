@@ -1,0 +1,87 @@
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor and local workspace state
+.idea/
+.vscode/
+.fleet/
+.codex/
+.claude/
+*.swp
+*.swo
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials*.json
+service-account*.json
+secret*.json
+secrets*.json
+token*.json
+tokens*.json
+cookie*.json
+cookies*.json
+
+# Private projects and source material
+projects/
+private/
+workspaces/
+source-private/
+reference-private/
+actor-private/
+client-materials/
+contracts/
+consents/
+registrations/
+rights-private/
+legal-private/
+
+# Generated and review assets
+outputs/
+output/
+generated/
+generations/
+renders/
+exports/
+drafts/
+candidates/
+rejected/
+review/
+media-local/
+audio-local/
+video-local/
+images-local/
+
+# Temporary files, caches, logs, and databases
+tmp/
+temp/
+.cache/
+cache/
+logs/
+*.log
+*.tmp
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Common development artifacts
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
